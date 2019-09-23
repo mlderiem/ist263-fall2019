@@ -1,0 +1,23 @@
+h1 {
+    font-size: 40px;
+    font-family: Cambria;
+
+}
+
+body {
+    background-color: #FFEECC;
+    font-family: Georgia, "Didot" , Verdana, serif;
+}
+
+h2 {
+    font-size: 15.5px;
+}
+ h3 {
+     font-style: italic;
+     font-size: 12px;
+ }
+
+ div {
+     border-style: double;
+     background-color: lightblue;
+ }
