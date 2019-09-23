@@ -19,5 +19,5 @@ h2 {
 
  div {
      border-style: double;
-     background: linear-gradient (lightblue, lightgreen);
+     background-image: linear-gradient (lightblue, lightgreen);
  }
