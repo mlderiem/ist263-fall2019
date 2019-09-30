@@ -1,0 +1,32 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    padding: 10px;
+}
+.odd {
+    background: #f1f1f1;
+}
+
+.even {
+    background: #e1e1e1;
+} */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+
+a:hover {
+    color: orange;
+}
+
+</style>
