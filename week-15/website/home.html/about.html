@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<title>Margot's Secrets to New York City</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="nyc.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Baskervville">
+<style> 
+body,h1,h2{font-family: "Baskervville", serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2, .bgimg3, .bgimg4 {
+  min-height: 50%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url('manhattan.jpg');} 
+.bgimg2 {background-image: url('oculus.jpg');} 
+.bgimg3 {background-image: url('met.jpg');} 
+.bgimg4 {background-image: url('dirtcandy.jpg');} 
+
+</style>
+
+<body>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+        <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+          <a href="shops.html" style="width:25%" class="w3-bar-item w3-button">Shops</a>
+          <a href="thingstodo.html" style="width:25%" class="w3-bar-item w3-button">Activities</a>
+          <a href="restaurants.html" style="width:25%" class="w3-bar-item w3-button">Restaurants</a>
+          <a href="about.html" style="width:25%" class="w3-bar-item w3-button w3-hover-black">About</a>
+        </div>
+      </div>
+
+<!-- About / Margot -->
+<div class="w3-container w3-padding-64 w3-light-grey w3-font-baskerville" id="us">
+        <div class="w3-content">
+          <h1 class="w3-center w3-text-grey"><b>About Margot</b></h1>
+          <img class="w3-round" src="margot.jpg" style="width:100%;margin:32px 0">
+          <p><i>Nice to meet you! My name is Margot- I grew up visiting the city and lived in the Financial District over the past summer.  Since people always ask me for advice of
+                  the best places to eat and shop and the best things to do, I figured this 
+                  website would be the perfect destination for those questions. </i>
+          </p><br>
+          <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Home</a></p>
+      </div>
+      </div>
+
+      <!-- Subscribe -->
+<section class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+        <h1>Stay in the Loop!</h1>
+        <p class="w3-large">Join our Mailing List</p>
+        <p class="w3-xlarge">
+          <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">SUBSCRIBE</button>
+        </p>
+      </section>
+      
+      <!-- Subscribe modal -->
+      <section id="id01" class="w3-modal">
+        <article class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+          <article class="w3-container w3-white w3-center">
+            <h1 class="w3-wide">Join Us!</h1>
+            <p>We look forward to connecting.</p>
+            <form>
+              <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+            </form>
+            <p><i>Sincerely, Margot</i></p>
+            <article class="w3-row">
+              <article class="w3-half">
+                <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Sign Up</button>
+              </article>
+              <article class="w3-half">
+                <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Cancel</button>
+              </article>
+          </article>
+      </article>
+      </article>
+      </section>
+      
+      <!-- Footer -->
+      <footer class="w3-center w3-black w3-padding-16">
+        <p>Margot De Riemer | 2019 </p>
+      </footer>
+      <div class="w3-hide-small" style="margin-bottom:32px"> </div>
+      
+      
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+      </html>
+      
+      

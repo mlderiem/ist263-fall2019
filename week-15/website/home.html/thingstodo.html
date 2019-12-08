@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<title>Margot's Secrets to New York City</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="nyc.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Baskervville">
+<style> 
+body,h1,h2{font-family: "Baskervville", serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url('counter.jpg');} 
+.bgimg2 {background-image: url('counter.jpg');} 
+
+
+</style>
+
+<body>
+
+<!-- Navbar (sticky bottom) -->
+<nav class="w3-bottom">
+        <article class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+          <a href="shops.html" style="width:25%" class="w3-bar-item w3-button">Shops</a>
+          <a href="thingstodo.html" style="width:25%" class="w3-bar-item w3-button">Activities</a>
+          <a href="restaurants.html" style="width:25%" class="w3-bar-item w3-button">Restaurants</a>
+          <a href="home.html" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Home</a>
+
+        </article>
+    </nav>
+
+
+<section class="w3-display-container bgimg2">
+        <article class="w3-display-center w3-text-black w3-center">
+          <h1 class="w3-jumbo">Activities</h1><br>
+          <h2>What to Do in New York City</h2>
+        </article>
+    </section>
+
+      <div class="w3-row-padding w3-padding-5 w3-center" id="food">
+            <div class="w3-third">
+              <img src="egyptian.jpg" alt="Egyptian Room" style="width:100%">
+              <h3>Metropolitain Museum of Art</h3>
+              <p>This is one of the most iconic spots in the city, and if you are visiting the area and haven't been to the MET, it should be an absolute priority. My favorite room is the Egyptian Room, but the limited-time editions are always a must-see as well. Try to time your visit when you can visit the roof of the museum- it is a hidden gem!
+                </p>
+            </div>
+            <div class="w3-third">
+              <img src="grandbanks.jpg" alt="Grand Banks" style="width:100%">
+              <h3>Grand Banks</h3>
+              <p>I never knew I loved dining on a boat in the middle of Manhattan until I visited Grand Banks! This Tribeca-docked boat offers incredible views, a fun crowd, and a perfectly decorated deck to enjoy your perfectly mixed cocktails and fresh oysters. This is a great spot to start your night- make sure to make a reservation more than a month in advance- this boat is "reely" knot" an experience you'll want to miss!
+                </p>
+            </div>
+            <div class="w3-third">
+              <img src="highline.jpg" alt="High Line" style="width:100%">
+              <h3>The High Line</h3>
+              <p>If you have a free afternoon, head down to Hudson Yards and start your walk on the High Line. The High Line is a 1.45 mile walk 30 feet above street level on an old rail line, with river & city views. It's a great way to see Chelsea- feel free to get on and off as you please! You'll end up in Chelsea right next to the Museum of Modern Art- another must-see!</p>
+            </div>
+          </div>
+
+          <!-- Contact -->
+<section class="w3-container w3-padding-64 w3-light-grey w3-grayscale-min w3-center" id="wedding">
+        <article class="w3-content">
+          <article class="w3-row">
+          <h1> Contact Information </h1>
+            <article class="w3-center">
+              <h2>Margot De Riemer</h2>
+              <p>mlderiem@syr.edu</p>
+              <p>(203) 637-9536</p>
+            </article>
+        </article>
+    </article>
+    </section>
+      
+      <!-- Subscribe -->
+      <section class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+        <h1>Stay in the Loop!</h1>
+        <p class="w3-large">Join our Mailing List</p>
+        <p class="w3-xlarge">
+          <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">SUBSCRIBE</button>
+        </p>
+    </article>
+      
+      <!-- Subscribe modal -->
+<section id="id01" class="w3-modal">
+        <article class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+          <article class="w3-container w3-white w3-center">
+            <h1 class="w3-wide">Join Us!</h1>
+            <p>We look forward to connecting.</p>
+            <form>
+              <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+            </form>
+            <p><i>Sincerely, Margot</i></p>
+            <article class="w3-row">
+              <article class="w3-half">
+                <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Sign Up</button>
+              </article>
+              <article class="w3-half">
+                <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Cancel</button>
+              </article>
+          </article>
+      </article>
+      </article>
+      </section>
+      
+      <!-- Footer -->
+      <footer class="w3-center w3-black w3-padding-16">
+        <p>Margot De Riemer | 2019 </p>
+      </footer>
+      <div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
